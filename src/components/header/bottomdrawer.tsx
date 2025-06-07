@@ -4,11 +4,11 @@ import { Link } from "react-scroll";
 export default function BottomDrawer() {
   return (
     <div
-      className="text-white grid grid-rows-4 px-12 bg-neutral-900 text-lg border-b border-neutral-700"
+      className=" grid grid-rows-4 px-12 text-lg border-b border-neutral-700"
       style={{ fontFamily: "Graphik" }}
     >
       <Link
-        activeClass="bg-blue-950"
+        activeClass="bg-blue-950 text-white"
         to="tax"
         spy={true}
         offset={-50}
@@ -18,7 +18,7 @@ export default function BottomDrawer() {
         Tax
       </Link>
       <Link
-        activeClass="bg-blue-950"
+        activeClass="bg-blue-950 text-white"
         to="accounting"
         spy={true}
         offset={-50}
@@ -28,7 +28,7 @@ export default function BottomDrawer() {
         Accounting
       </Link>
       <Link
-        activeClass="bg-blue-950"
+        activeClass="bg-blue-950 text-white"
         to="auditing"
         spy={true}
         offset={-50}
@@ -38,7 +38,7 @@ export default function BottomDrawer() {
         Auditing
       </Link>
       <Link
-        activeClass="bg-blue-950"
+        activeClass="bg-blue-950 text-white"
         to="consulting"
         spy={true}
         offset={-50}

@@ -4,7 +4,7 @@ export default function Insights() {
   return (
     <div
       style={{ fontFamily: "Graphik" }}
-      className="text-xl text-white bg-neutral-950 font-normal pt-8 grid"
+      className="text-xl font-normal pt-8 grid"
     >
       African SMEs are the backbone of our economies. However, they often face
       significant challenges, such as access to finance, infrastructure, and

@@ -9,7 +9,7 @@ export default function Main() {
   return (
     <div
       style={{ fontFamily: "Graphik" }}
-      className="text-xl md:text-xxxl text-white bg-neutral-950 font-medium pt-48 px-12"
+      className="bg-white text-xl md:text-xxxl bg-neutral-950 font-medium pt-48 px-12"
     >
       <Element name="do">
         Expert Guidance, Exceptional Service

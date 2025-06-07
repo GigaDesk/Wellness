@@ -25,7 +25,7 @@ export default function Partners() {
   return (
     <div
       style={{ fontFamily: "Graphik" }}
-      className=" text-xl text-white bg-neutral-950 font-medium pt-20 pb-20 grid md:grid-cols-2 gap-20"
+      className=" text-xl bg-white font-medium pt-20 pb-20 grid md:grid-cols-2 gap-20"
     >
       <div
         className="text-purple-950 font-semibold text-lg grid content-center bg-white hover:bg-purple-950 hover:text-white cursor-pointer justify-items-center bg-white min-h-52"
