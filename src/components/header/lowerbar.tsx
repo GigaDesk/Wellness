@@ -13,35 +13,35 @@ export default function Lowerbar(props) {
         
       <Link
           activeClass="bg-orange-800"
-          to="tax"
+          to="men"
           spy={true}
           offset={-50}
           smooth={true} className="grid justify-items-center content-center px-3 hover:bg-orange-800 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[10%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[10%] after:bottom-4 after:right-[50%]">
-          Tax
+          Men
         </Link>
         <Link
           activeClass="bg-orange-800"
-          to="accounting"
+          to="home"
           spy={true}
           offset={-50}
-          smooth={true} className="grid justify-items-center content-center hover:bg-orange-800 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[30%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[30%] after:bottom-4 after:right-[50%]">
-           Accounting
+          smooth={true} className="grid justify-items-center content-center hover:bg-orange-800 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[37%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[37%] after:bottom-4 after:right-[50%]">
+           Home & Repair
         </Link>
         <Link
           activeClass="bg-orange-800"
-          to="auditing"
+          to="personal care"
           spy={true}
           offset={-50}
-          smooth={true}  className="grid justify-items-center content-center hover:bg-orange-800 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[22%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[22%] after:bottom-4 after:right-[50%]">
-          Auditing
+          smooth={true}  className="grid justify-items-center content-center hover:bg-orange-800 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[35%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[35%] after:bottom-4 after:right-[50%]">
+          Personal Care
         </Link>
         <Link
           activeClass="bg-orange-800"
-          to="consulting"
+          to="orthopedic"
           spy={true}
           offset={-50}
           smooth={true} className="grid justify-items-center content-center hover:bg-orange-800 cursor-pointer relative transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[28%] before:bottom-4 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[28%] after:bottom-4 after:right-[50%]">
-          Consulting
+          Orthopedic
         </Link>
       </div>
       <div className="grid grid-cols-6 lg:hidden relative">
