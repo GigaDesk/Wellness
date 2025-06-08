@@ -12,13 +12,13 @@ export default function Main() {
       className="bg-white text-xl md:text-xxxl bg-neutral-950 font-medium pt-48 px-12"
     >
       <Element name="do">
-        Expert Guidance, Exceptional Service
+        Order Now, Pay On Free Delivery
         <p className="text-lg pt-4 font-normal">
-          In today's dynamic business landscape, staying compliant and making
-          informed financial decisions is crucial. Our team of seasoned
-          professionals provides comprehensive tax, auditing, and consulting
-          services, simplifying complex regulations and optimizing your
-          financial performance.
+          Experience ultimate convenience and peace of mind with our service.
+          Simply order now and your items will be on their way, with the added
+          benefit of free delivery. You only pay once your order arrives safely
+          at your doorstep, ensuring you get exactly what you expect,
+          hassle-free.
         </p>
         <Element name="tax">
           <Service1

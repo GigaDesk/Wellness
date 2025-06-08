@@ -7,8 +7,8 @@ export default function Upperbar() {
       className="grid lg:grid-cols-2 content-center h-[72px] px-12"
       style={{ fontFamily: "Graphik" }}
     >
-      <div className="text-blue-700 font-semibold text-lg grid content-center max-lg:justify-items-center">
-        Folio
+      <div className="text-[#F68B1E] font-semibold text-lg grid content-center max-lg:justify-items-center">
+        Company
       </div>
       <div className="grid grid-cols-3 max-lg:hidden">
       <Link
@@ -29,7 +29,7 @@ export default function Upperbar() {
           smooth={true}
           className="cursor-pointer"
         >
-          <div>What we think</div>
+          <div>Our Products</div>
         </Link>
         <Link
           activeClass="font-medium"
@@ -39,7 +39,7 @@ export default function Upperbar() {
           smooth={true}
           className="cursor-pointer"
         >
-          <div>Who we are</div>
+          <div>About us</div>
         </Link>
       </div>
     </div>
