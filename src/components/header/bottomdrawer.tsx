@@ -8,44 +8,44 @@ export default function BottomDrawer() {
       style={{ fontFamily: "Graphik" }}
     >
       <Link
-        activeClass="bg-blue-950 text-white"
-        to="tax"
+        activeClass="bg-orange-800 text-white"
+        to="men"
         spy={true}
         offset={-50}
         smooth={true}
         className="py-2"
       >
-        Tax
+        Men
       </Link>
       <Link
-        activeClass="bg-blue-950 text-white"
-        to="accounting"
+        activeClass="bg-orange-800 text-white"
+        to="home"
         spy={true}
         offset={-50}
         smooth={true}
         className="py-2"
       >
-        Accounting
+        Home & Repair
       </Link>
       <Link
-        activeClass="bg-blue-950 text-white"
-        to="auditing"
+        activeClass="bg-orange-800 text-white"
+        to="personal care"
         spy={true}
         offset={-50}
         smooth={true}
         className="py-2"
       >
-        Auditing
+        Personal Care
       </Link>
       <Link
-        activeClass="bg-blue-950 text-white"
-        to="consulting"
+        activeClass="bg-orange-800 text-white"
+        to="orthopedic"
         spy={true}
         offset={-50}
         smooth={true}
         className="py-2"
       >
-        Consulting
+        Orthopedic
       </Link>
     </div>
   );
