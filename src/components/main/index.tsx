@@ -54,8 +54,7 @@ export default function Main() {
         <Insights />
       </Element>
       <Element name="are">
-        <div className="grid justify-items-center pt-20"> Our Partners </div>
-        <Partners />
+        <div className="grid justify-items-center pt-20"></div>
       </Element>
     </div>
   );

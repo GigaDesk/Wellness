@@ -34,7 +34,7 @@ export default function Footer() {
               </svg>
             </div>
             <p className="inline-block text-base font-normal">
-              2024 Folio. All Rights Reserved{" "}
+              2024. All Rights Reserved{" "}
             </p>
           </div>
         </div>
