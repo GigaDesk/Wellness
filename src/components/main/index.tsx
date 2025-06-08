@@ -50,7 +50,7 @@ export default function Main() {
         </Element>
       </Element>
       <Element name="think">
-        <div className="grid justify-items-center mt-52"> Our Insights </div>
+        <div className="grid justify-items-center mt-52"> Our Products </div>
         <Insights />
       </Element>
       <Element name="are">
