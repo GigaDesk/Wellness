@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 
 export default function Insights() {
   return (
@@ -20,7 +21,10 @@ export default function Insights() {
           <div className="bg-[#F68B1E] w-full text-white grid justify-items-center content-center"> Anti-leak sealant @Ksh 2,999 for 1 & Ksh 3,999 for 2</div>
         </div>
       </div>
-      <div className="text-[#F68B1E] w-full grid justify-items-center p-8">View more</div>
+      <div className="text-[#F68B1E] w-full grid justify-items-center p-8">
+
+        <Link to="/products">View more</Link>
+        </div>
     </div>
   );
 }
