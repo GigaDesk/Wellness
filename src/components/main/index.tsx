@@ -14,11 +14,11 @@ export default function Main() {
     >
       <Element name="do">
         Order Now, Pay On Free Delivery
-        <div>
+        <div className="grid grid-cols-[1fr_4fr] gap-4">
         <ReactWhatsapp number="+254796645252" element="button">
         <button className="w-20 h-20 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300">
           <svg
-            className="fill-gray-900 relative w-20 h-20 z-10 transition-all duration-300 group-hover:fill-white"
+            className="relative w-20 h-20 z-10 transition-all duration-300 fill-white"
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
@@ -36,9 +36,10 @@ export default function Main() {
               fill=""
             />
           </svg>
-          <div className="absolute top-full left-0 w-full h-full rounded-full bg-green-400 z-0 transition-all duration-500 group-hover:top-0"></div>
+          <div className="absolute left-0 w-full h-full rounded-full bg-green-400 z-0 transition-all duration-500 group-hover:top-0"></div>
         </button>
       </ReactWhatsapp>
+      <div className="grid content-center">or call: +254706880300</div>
       </div>
         <p className="text-lg pt-4 font-normal">
           Experience ultimate convenience and peace of mind with our service.
