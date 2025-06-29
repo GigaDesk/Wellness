@@ -39,7 +39,7 @@ export default function Main() {
           <div className="absolute left-0 w-full h-full rounded-full bg-green-400 z-0 transition-all duration-500 group-hover:top-0"></div>
         </button>
       </ReactWhatsapp>
-      <div className="grid content-center">or call: +254706880300</div>
+      <div className="grid content-center">or call: +254796645252</div>
       </div>
         <p className="text-lg pt-4 font-normal">
           Experience ultimate convenience and peace of mind with our service.
